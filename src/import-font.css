@@ -1,0 +1,25 @@
+@font-face{
+	font-family: "Cyberthrone";
+	src: url("./assets/fonts/cyberthrone/Cyberthrone.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "CreatoDisplay";
+	src: url("./assets/fonts/creato_display/CreatoDisplay-Regular.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: "CreatoDisplay";
+	src: url("./assets/fonts/creato_display/CreatoDisplay-Medium.otf");
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face{
+	font-family: "FatCow";
+	src: url("./assets/fonts/FatCow/fatcow-free-font/v1.0/PC-TT/FatCow.ttf");
+	font-weight: normal;
+	font-style: normal;
+}

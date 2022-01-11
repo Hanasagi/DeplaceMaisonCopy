@@ -1,0 +1,210 @@
+@media screen and (max-width: 1100px) {
+  .first-part-wrapper {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .main-title {
+    font-size: 8.5vw;
+    line-height: 12.5vw;
+    padding-top: 20vw;
+  }
+  .main-title > div {
+    height: 15vw;
+  }
+  .brand-image {
+    width: 100%;
+  }
+  .brand-image > span {
+    margin: 0 1.2vw;
+  }
+  .brand-image > span > div > img {
+    width: 41vw;
+  }
+  .brand-image > span > div:last-of-type > h3 {
+    font-size: 3.3vw;
+  }
+  .explore {
+    width: unset;
+  }
+  .explore > h3 {
+    font-size: 3.5vw;
+  }
+  .explore-button {
+    width: 8vw;
+  }
+  .band {
+    width: 102%;
+    left: -1px;
+    height: auto;
+  }
+  .band > div > h3 {
+    font-size: 3.5vw;
+  }
+  .second-part-text > div:first-of-type {
+    font-size: 3.5vw;
+  }
+  .second-part-text {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .second-part-text h2 {
+    font-size: 5vw;
+  }
+  .product {
+    width: 58vw;
+    height: 77vw;
+    margin: 10vw 3vw;
+  }
+  .product-item-wrapper {
+    bottom: 3vh;
+  }
+  .product-label {
+    width: 11vw;
+    margin-bottom: 2.8vw;
+  }
+  .item-season {
+    font-size: 2.8vw;
+    line-height: 2.3vw;
+  }
+  .product-list {
+    left: unset;
+  }
+  .product-description {
+    bottom: 9vh;
+  }
+  .product-description > h2 {
+    font-size: 21vw;
+  }
+  .price {
+    font-size: 4.8vw;
+  }
+  .sold-price {
+    font-size: 3.8vw;
+  }
+  .testimonials {
+    left: 2vw;
+  }
+  .testimonials > .first-part > img {
+    width: 14vw;
+  }
+  .testimonials > .first-part > div {
+    height: 4vw;
+  }
+  .testimonials > .first-part > div h3 {
+    font-size: 5vw;
+  }
+  .reviews {
+    height: 14vw;
+  }
+  .reviews > div {
+    height: 14vw;
+  }
+  .testimonials > .second-part > .reviews p {
+    font-size: 2.5vw;
+  }
+  .third-part-wrapper {
+    margin: 4vh 0;
+  }
+  @keyframes testimonails-animation-up-first {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-12vw);
+    }
+  }
+  @keyframes testimonails-animation-up-second {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-5vw);
+    }
+  }
+  @keyframes testimonails-animation-up-second-text {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-14vw);
+    }
+  }
+  @keyframes testimonails-animation-down-first {
+    from {
+      transform: translateY(-12vw);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  @keyframes testimonails-animation-down-second {
+    from {
+      transform: translateY(-5vw);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  @keyframes testimonails-animation-down-second-text {
+    from {
+      transform: translateY(-14vw);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  .a,
+  .b {
+    display: none;
+    width: 0;
+  }
+  .upper-text h5,
+  .a > h4 {
+    font-size: 6vw;
+  }
+  .upper-text > div {
+    margin: 2.3vw 0;
+    height: 4.5vw;
+  }
+  .upper-text > div > h2 {
+    font-size: 4vw;
+  }
+  .lower-text {
+    font-size: 3.1vw;
+  }
+  .footer-wrapper {
+    padding: 20vw 9vw;
+    background: #f8f5ea;
+    border-top: 1px solid black;
+  }
+  .footer-grid {
+    gap: 0 13vw;
+    grid-template-areas: "c d e" "c d e";
+  }
+  .social-icon > img {
+    width: 4.8vw;
+  }
+  .logo-wrapper {
+    height: 19vw;
+    width: 8vw;
+    left: 11vw;
+    top: 0;
+    transform: rotate(90deg);
+  }
+  .header-logo:last-of-type {
+    display: none;
+  }
+  .sticky-header > .cart-text {
+    left: 77vw;
+    top: 7vw;
+    font-size: 3.3vw;
+    height: 4vw;
+    width: unset;
+  }
+  .ink-mode {
+    display: none;
+  }
+  .header-menu {
+    display: none;
+  }
+}
